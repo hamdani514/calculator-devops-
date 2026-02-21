@@ -4,8 +4,8 @@
   "description": "calculator",
   "main": "script.js",
   "scripts": {
-  "test": "jest"
-},
+    "test": "npx jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hamdani514/calculator-devops-.git"
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/hamdani514/calculator-devops-#readme",
   "devDependencies": {
     "jest": "^30.2.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
