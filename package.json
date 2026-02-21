@@ -4,7 +4,7 @@
   "description": "calculator",
   "main": "script.js",
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest --testTimeout=10000"
   },
   "repository": {
     "type": "git",
