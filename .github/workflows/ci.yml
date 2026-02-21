@@ -22,5 +22,5 @@ jobs:
           npm -v
           npm list
 
-      - name: Run Tests
-        run: npx jest --runInBand --verbose
+            - name: Run Tests
+        run: npx --no-install jest --runInBand --verbose
